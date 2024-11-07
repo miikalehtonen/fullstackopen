@@ -1,0 +1,25 @@
+.notification {
+    color: black;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification.success {
+    color: green;
+    border-color: green;
+}
+
+.notification.error {
+    color: red;
+    border-color: red;
+}
+
+.blog {
+    border: 1px solid black;
+    padding: 10px 0 0 2px;
+    margin-bottom: 5px;
+}

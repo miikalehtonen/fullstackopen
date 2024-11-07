@@ -1,0 +1,16 @@
+{
+  "name": "cypresstestaus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.2",
+    "eslint-plugin-cypress": "^4.1.0"
+  }
+}
