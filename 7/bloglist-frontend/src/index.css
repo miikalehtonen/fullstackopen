@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #343a40;
+  padding: 1em;
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+nav span {
+  color: #ffffff;
+  margin-left: 1em;
+}
+
+.notification {
+  color: #333;
+  background: #e9ecef;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.notification.success {
+  color: green;
+  border-color: green;
+}
+
+.notification.error {
+  color: red;
+  border-color: red;
+}
+
+.blog {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.blog a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+input[type='text'],
+input[type='password'] {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button[type='submit'] {
+  background-color: #28a745;
+}
+
+.blog-view {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 15px;
+}
+
+.blog-view form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.blog-view ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.users-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users-container table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.users-container th,
+.users-container td {
+  padding: 10px;
+  text-align: left;
+}
+
+.users-container th {
+  border-bottom: 2px solid #ccc;
+}
+
+.user-view {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.user-view ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-view ul li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
